@@ -1,0 +1,66 @@
+//Font 
+$font-family-sans-serif: 'Open Sans', sans-serif;
+
+//colors
+$primary: #c167ef;
+$secondary: #10bcee;
+$dark: #2b3041;
+$light: #f3f6f9;
+
+//Navbar
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: $secondary;
+
+// Hover effect for contact button
+#contact {
+    &:hover {
+        color: $secondary;
+    }
+
+}
+
+//buttons 
+$buttonRadius :50px;
+$buttonPaddingX: 30px;
+$buttonPaddingY: 10px;
+
+$btn-border-radius: $buttonRadius;
+$btn-border-radius-sm: $buttonRadius;
+$btn-border-radius-lg: $buttonRadius;
+
+$btn-padding-x: $buttonPaddingX;
+$btn-padding-x-sm: $buttonPaddingX;
+$btn-padding-x-lg: $buttonPaddingX;
+
+$btn-padding-y: $buttonPaddingY;
+$btn-padding-y-sm: $buttonPaddingY;
+$btn-padding-y-lg: $buttonPaddingY;
+
+$navbar-toggler-border-radius: 5px;
+
+//Spacers
+$spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 6,
+    7: $spacer * 8,
+    8: $spacer * 12,
+    ) !default;
+
+
+$line-height-base: 1.7;
+$headings-margin-bottom: $spacer*1;
+
+
+$enable-negative-margins: true;
+
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
